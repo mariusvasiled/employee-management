@@ -17,18 +17,21 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
     <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/loginAndRegister.css">
+
+
 </head>
 
-<body>
-<form action="login" method="post">
+<body id="unId">
+<div id="a" class="loginArea">
+    <h2 id="b">Log-in</h2>
+    <form type="post" method="post" action="login">
+        <input id="username" type="text" name= "un" class="normalInput" placeholder="Username"><br/>
+        <input id="password" type="password"name="pw" class="normalInput" placeholder="Password"><br/>
 
-    Please enter your username
-    <input type="text" name="un"/><br>
-
-    Please enter your password
-    <input type="text" name="pw"/>
-
-    <input type="submit" value="submit">
-</form>
+        <input type="submit" value="Sign In">
+    </form>
+</div>
 </body>
 </html>
