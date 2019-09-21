@@ -11,14 +11,6 @@ import java.util.List;
 
 public class EmployeeDao extends GenericDao<Employee>{
 
-    public void addEmployee(String name, String function){
-        Employee employee = new Employee();
-        employee.setName(name);
-        employee.setFunction(function);
-        EmployeeDao employeeDao = new EmployeeDao();
-        employeeDao.createEntity(employee);
-    }
-
     public List<Employee> getListOfEmployees(){
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();

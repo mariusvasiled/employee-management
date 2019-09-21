@@ -19,6 +19,10 @@ public class EmployeeService {
         return  employeeDao.getListOfEmployees();
     }
 
+    public void createEmployee(Employee employee){
+
+        employeeDao.createEntity(employee);
+    }
 
 
 

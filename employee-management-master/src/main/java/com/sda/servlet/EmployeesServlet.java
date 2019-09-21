@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(value = "/employees")
-public class Employees extends HttpServlet {
+public class EmployeesServlet extends HttpServlet {
 
     private EmployeeDao employeeDao = new EmployeeDao();
 

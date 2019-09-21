@@ -24,6 +24,13 @@ public class Employee {
     @Column(name = "emp_function")
     private String function;
 
+    public Employee(){}
+
+    public Employee(String name, String function){
+        this.name = name;
+        this.function = function;
+    }
+
     public Long getId() {
         return id;
     }
@@ -47,4 +54,5 @@ public class Employee {
     public void setFunction(String function) {
         this.function = function;
     }
+
 }

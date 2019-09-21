@@ -41,5 +41,7 @@
     </c:forEach>
 </table>
 
+<a href="add_employee.jsp">Add Employee</a>
+
 </body>
 </html>

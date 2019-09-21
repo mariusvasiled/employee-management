@@ -27,11 +27,11 @@
 <div id="a" class="loginArea">
     <h2 id="b">Log-in</h2>
     <form type="post" method="post" action="login">
-        <input id="username" type="text" name= "un" class="normalInput" placeholder="Username"><br/>
-        <input id="password" type="password"name="pw" class="normalInput" placeholder="Password"><br/>
+    <input id="username" type="text" name= "un" class="normalInput" placeholder="Username"><br/>
+    <input id="password" type="password"name="pw" class="normalInput" placeholder="Password"><br/>
 
-        <input type="submit" value="Sign In">
-    </form>
+    <input type="submit" value="Sign In">
+</form>
 </div>
 </body>
 </html>
